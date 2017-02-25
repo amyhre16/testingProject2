@@ -1,6 +1,5 @@
 'use strict';
 
-// import /models/burgers.js
 var test = require('./../models');
 
 // export the function with routes
@@ -54,24 +53,4 @@ module.exports = function(app) {
             console.log(player_team);
         });
 	});
-
-	// app.post('/', function(req, res) {
-	// 	test.Burger.create({
-	// 		burger_name: req.body.burger_name
-	// 	}).then(function(dbBurger) {
-	// 		res.redirect('/');
-	// 	});
-	// });
-
-	// app.put('/', function(req, res) {
-	// 	test.Burger.update({
-	// 		devoured: true
-	// 	}, {
-	// 		where: {
-	// 			id: req.body.id
-	// 		}
-	// 	}).then(function(dbBurger) {
-	// 		res.redirect('/');
-	// 	});
-	// });
 };
